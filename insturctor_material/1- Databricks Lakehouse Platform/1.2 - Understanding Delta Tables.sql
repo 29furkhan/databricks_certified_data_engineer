@@ -47,7 +47,7 @@ INSERT INTO employees
 VALUES
   (6, "Kim", 6200.3)
 
--- NOTE: When executing multiple SQL statements in the same cell, only the last statement's result will be displayed in the cell output.
+-- NOTE: When executing multiple SQL statements in the same cell, only the last statement's result will be displayed in the cell output. 
 
 -- COMMAND ----------
 
@@ -114,7 +114,3 @@ DESCRIBE HISTORY employees
 -- COMMAND ----------
 
 -- MAGIC %fs head 'dbfs:/user/hive/warehouse/employees/_delta_log/00000000000000000005.json'
-
--- COMMAND ----------
-
-
